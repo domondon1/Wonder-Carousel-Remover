@@ -1,13 +1,3 @@
-<?php 
-    /*
-    Plugin Name: Wonder-Carousel Watermark Remover
-    Plugin URI: https://github.com/domondon1/wonder-carousel-watermark-remove
-    Description: This Wordpress plugin is for the wonder carousel it will remove the watermark of the carousel
-    Author: Roderick Domondon
-    Version: 1.sample
-    Author URI: https://github.com/domondon1/wonder-carousel-watermark-remove
-    */
-
     // Add 'hidden' class
     function wonder_style() {
         $style = "";
@@ -41,4 +31,4 @@
     add_action('wp_head', 'wonder_style');
 
     add_action('wp_head', 'wonder_script');
-    ?>
+   
