@@ -25,7 +25,7 @@ This simple plugin will remove the watermark of the carousel
     	$script .= "<script>";
     	$script .= "jQuery(document).ready(function(){
     		setTimeout(function() {
-    			jQuery('.amazingcarousel-image').find('a[href=".$url."]').parent().addClass('hidden').removeAttr( 'style' );
+    			jQuery('.amazingcarousel-image').find('".$url."').parent().addClass('hidden').removeAttr( 'style' );
     		}, 3000);
     	});";
     	$script .= "</script>";
